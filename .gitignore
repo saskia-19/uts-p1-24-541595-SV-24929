@@ -1,0 +1,30 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Laravel
+/backend/vendor/
+/backend/node_modules/
+/backend/storage/*.key
+/backend/storage/logs/*
+/backend/bootstrap/cache/*.php
+
+# Vue / Vite
+/frontend/node_modules/
+/frontend/dist/
+
+# Local test files
+/item-test.json
+/item-update-test.json
+/login-test.json
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local AI agent instructions
+/backend/AGENTS.md
+/backend/CLAUDE.md
